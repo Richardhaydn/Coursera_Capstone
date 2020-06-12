@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fae470da70f641dfb22c25650e4a5441 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_fae470da70f641dfb22c25650e4a5441" ></div>
+        
+</body>
+<script>    
+    
+            var map_fae470da70f641dfb22c25650e4a5441 = L.map(
+                "map_fae470da70f641dfb22c25650e4a5441",
+                {
+                    center: [28.5421109, -81.3790304],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_42ad866fd24847108a36ea3c044d22f8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+            var circle_marker_9c8d62915f5240cc92cc60fe25df0ddc = L.circleMarker(
+                [28.51948796222489, -81.36511647712614],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_335499e84b224e49ac5d4b26ec0db7c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c506d3bd078347f782769c30d06a04c7 = $(`<div id="html_c506d3bd078347f782769c30d06a04c7" style="width: 100.0%; height: 100.0%;">William R. Boone High School, Cluster: 0</div>`)[0];
+            popup_335499e84b224e49ac5d4b26ec0db7c0.setContent(html_c506d3bd078347f782769c30d06a04c7);
+        
+
+        circle_marker_9c8d62915f5240cc92cc60fe25df0ddc.bindPopup(popup_335499e84b224e49ac5d4b26ec0db7c0)
+        ;
+
+        
+    
+    
+            var circle_marker_d9b19a8c39ad41f6b6d3aef3664c9771 = L.circleMarker(
+                [28.554220206569298, -81.30238234256012],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_610e6ec472c540e9ada02f98be53cadd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b33163d74c994078a31165906135c440 = $(`<div id="html_b33163d74c994078a31165906135c440" style="width: 100.0%; height: 100.0%;">Colonial High School, Cluster: 1</div>`)[0];
+            popup_610e6ec472c540e9ada02f98be53cadd.setContent(html_b33163d74c994078a31165906135c440);
+        
+
+        circle_marker_d9b19a8c39ad41f6b6d3aef3664c9771.bindPopup(popup_610e6ec472c540e9ada02f98be53cadd)
+        ;
+
+        
+    
+    
+            var circle_marker_3858a044ab364bbabc74a5f7540391ce = L.circleMarker(
+                [28.58504227836199, -81.32275320212825],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_4d8678ef85814f74b34c2b93c357f45f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96cf298c1b2e41cba0e99fc0c7d9689d = $(`<div id="html_96cf298c1b2e41cba0e99fc0c7d9689d" style="width: 100.0%; height: 100.0%;">Winter Park High School, Cluster: 1</div>`)[0];
+            popup_4d8678ef85814f74b34c2b93c357f45f.setContent(html_96cf298c1b2e41cba0e99fc0c7d9689d);
+        
+
+        circle_marker_3858a044ab364bbabc74a5f7540391ce.bindPopup(popup_4d8678ef85814f74b34c2b93c357f45f)
+        ;
+
+        
+    
+    
+            var circle_marker_507281cc206d4064867aa56d1ea6177b = L.circleMarker(
+                [28.63759472452845, -81.27196914402279],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_cdc64fc077b34fc99186dcbbf8be8c6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c803e0a3d294abd9d7512f42a8da86a = $(`<div id="html_1c803e0a3d294abd9d7512f42a8da86a" style="width: 100.0%; height: 100.0%;">Lake Howell High School, Cluster: 1</div>`)[0];
+            popup_cdc64fc077b34fc99186dcbbf8be8c6d.setContent(html_1c803e0a3d294abd9d7512f42a8da86a);
+        
+
+        circle_marker_507281cc206d4064867aa56d1ea6177b.bindPopup(popup_cdc64fc077b34fc99186dcbbf8be8c6d)
+        ;
+
+        
+    
+    
+            var circle_marker_dc23765f832e4ce4abb4cd1a9e3d99d8 = L.circleMarker(
+                [28.672018118672206, -81.21914485354861],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_d11647e9ec63439f89dc26fc2b09cd9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fab9516dbb74a53a062c6026938c07a = $(`<div id="html_9fab9516dbb74a53a062c6026938c07a" style="width: 100.0%; height: 100.0%;">Oviedo High School, Cluster: 1</div>`)[0];
+            popup_d11647e9ec63439f89dc26fc2b09cd9b.setContent(html_9fab9516dbb74a53a062c6026938c07a);
+        
+
+        circle_marker_dc23765f832e4ce4abb4cd1a9e3d99d8.bindPopup(popup_d11647e9ec63439f89dc26fc2b09cd9b)
+        ;
+
+        
+    
+    
+            var circle_marker_c230baffb13b4bb998ac2387a4fabdff = L.circleMarker(
+                [28.470966577665166, -81.47631334148879],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_78718a6870e44f82af6d1a82a0d11268 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3af66e4593a04e4e9373917295d371bc = $(`<div id="html_3af66e4593a04e4e9373917295d371bc" style="width: 100.0%; height: 100.0%;">Dr. Phillips High School, Cluster: 0</div>`)[0];
+            popup_78718a6870e44f82af6d1a82a0d11268.setContent(html_3af66e4593a04e4e9373917295d371bc);
+        
+
+        circle_marker_c230baffb13b4bb998ac2387a4fabdff.bindPopup(popup_78718a6870e44f82af6d1a82a0d11268)
+        ;
+
+        
+    
+    
+            var circle_marker_1d132b9fc36643dbbfedaa505b44bb46 = L.circleMarker(
+                [28.587961774870617, -81.39210563832752],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_259a5b10a35149bab8c8267d1473826d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_587c385c2b91423d846e591a539e085a = $(`<div id="html_587c385c2b91423d846e591a539e085a" style="width: 100.0%; height: 100.0%;">Bishop Moore Catholic High School, Cluster: 0</div>`)[0];
+            popup_259a5b10a35149bab8c8267d1473826d.setContent(html_587c385c2b91423d846e591a539e085a);
+        
+
+        circle_marker_1d132b9fc36643dbbfedaa505b44bb46.bindPopup(popup_259a5b10a35149bab8c8267d1473826d)
+        ;
+
+        
+    
+    
+            var circle_marker_b38e6ba9506e4d74bb13e4bc3c599868 = L.circleMarker(
+                [28.38068324948807, -81.24580353484619],
+                {"bubblingMouseEvents": true, "color": "#d4dd80", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d4dd80", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_71240f6f7de04152b80b74bfb35dbb37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6708039f7bc460b865f7aba914b8ef4 = $(`<div id="html_d6708039f7bc460b865f7aba914b8ef4" style="width: 100.0%; height: 100.0%;">Lake Nona High School, Cluster: 3</div>`)[0];
+            popup_71240f6f7de04152b80b74bfb35dbb37.setContent(html_d6708039f7bc460b865f7aba914b8ef4);
+        
+
+        circle_marker_b38e6ba9506e4d74bb13e4bc3c599868.bindPopup(popup_71240f6f7de04152b80b74bfb35dbb37)
+        ;
+
+        
+    
+    
+            var circle_marker_ca76ffa41105468e8ed5d2921f7cc98c = L.circleMarker(
+                [28.24051685374649, -81.27950637393498],
+                {"bubblingMouseEvents": true, "color": "#d4dd80", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d4dd80", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_bf048560e84247029d504b96701a9c1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a94dfc8d4a14d44865fbe1bf0d7b3f0 = $(`<div id="html_6a94dfc8d4a14d44865fbe1bf0d7b3f0" style="width: 100.0%; height: 100.0%;">St Cloud High School, Cluster: 3</div>`)[0];
+            popup_bf048560e84247029d504b96701a9c1d.setContent(html_6a94dfc8d4a14d44865fbe1bf0d7b3f0);
+        
+
+        circle_marker_ca76ffa41105468e8ed5d2921f7cc98c.bindPopup(popup_bf048560e84247029d504b96701a9c1d)
+        ;
+
+        
+    
+    
+            var circle_marker_0ab080bb62fd475ea4247d596e5b77d6 = L.circleMarker(
+                [28.49669248901506, -81.50551950930952],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_d231cb6b9a6d4145b03051e080ed8190 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_519d4a2aca03445c9f593ba0a3136358 = $(`<div id="html_519d4a2aca03445c9f593ba0a3136358" style="width: 100.0%; height: 100.0%;">Olympia High School, Cluster: 0</div>`)[0];
+            popup_d231cb6b9a6d4145b03051e080ed8190.setContent(html_519d4a2aca03445c9f593ba0a3136358);
+        
+
+        circle_marker_0ab080bb62fd475ea4247d596e5b77d6.bindPopup(popup_d231cb6b9a6d4145b03051e080ed8190)
+        ;
+
+        
+    
+    
+            var circle_marker_8642d61cd92d40478ff68a6b96b7fb14 = L.circleMarker(
+                [28.28817213015904, -81.4266830932925],
+                {"bubblingMouseEvents": true, "color": "#d4dd80", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d4dd80", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_a6b63b6e532e47c3bd2a3c0765d0fe84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d43034e266624bf2a0e1e00aff125a76 = $(`<div id="html_d43034e266624bf2a0e1e00aff125a76" style="width: 100.0%; height: 100.0%;">Osceola High School, Cluster: 3</div>`)[0];
+            popup_a6b63b6e532e47c3bd2a3c0765d0fe84.setContent(html_d43034e266624bf2a0e1e00aff125a76);
+        
+
+        circle_marker_8642d61cd92d40478ff68a6b96b7fb14.bindPopup(popup_a6b63b6e532e47c3bd2a3c0765d0fe84)
+        ;
+
+        
+    
+    
+            var circle_marker_ec7470cbab3140a18c1eb8064f6da5e8 = L.circleMarker(
+                [28.547944, -81.310158],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_2b61a278ab494cee800fcd78788bc4be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06c751dd3dcb41c2a19dcaa8701205d5 = $(`<div id="html_06c751dd3dcb41c2a19dcaa8701205d5" style="width: 100.0%; height: 100.0%;">Aloma Charter High School, Cluster: 1</div>`)[0];
+            popup_2b61a278ab494cee800fcd78788bc4be.setContent(html_06c751dd3dcb41c2a19dcaa8701205d5);
+        
+
+        circle_marker_ec7470cbab3140a18c1eb8064f6da5e8.bindPopup(popup_2b61a278ab494cee800fcd78788bc4be)
+        ;
+
+        
+    
+    
+            var circle_marker_1fb6c47f1da24ba3ad6662831c936e4a = L.circleMarker(
+                [28.472290230729797, -81.3859215780451],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_a1ff79f319304c69ac9107a0cbae437b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf2dc595592c4d358e6b1c83b1a933a5 = $(`<div id="html_cf2dc595592c4d358e6b1c83b1a933a5" style="width: 100.0%; height: 100.0%;">Oak Ridge High School, Cluster: 0</div>`)[0];
+            popup_a1ff79f319304c69ac9107a0cbae437b.setContent(html_cf2dc595592c4d358e6b1c83b1a933a5);
+        
+
+        circle_marker_1fb6c47f1da24ba3ad6662831c936e4a.bindPopup(popup_a1ff79f319304c69ac9107a0cbae437b)
+        ;
+
+        
+    
+    
+            var circle_marker_bce99f4dbf234a0daf7b25a860f42ab7 = L.circleMarker(
+                [28.778191800769104, -81.28415107727051],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_c26285abdc97415baa60ef23c6be0d51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e977ab872aeb47a787d37eb0a9c4e90b = $(`<div id="html_e977ab872aeb47a787d37eb0a9c4e90b" style="width: 100.0%; height: 100.0%;">Seminole High School, Cluster: 1</div>`)[0];
+            popup_c26285abdc97415baa60ef23c6be0d51.setContent(html_e977ab872aeb47a787d37eb0a9c4e90b);
+        
+
+        circle_marker_bce99f4dbf234a0daf7b25a860f42ab7.bindPopup(popup_c26285abdc97415baa60ef23c6be0d51)
+        ;
+
+        
+    
+    
+            var circle_marker_068011e12c37429580bb7a7784fdf012 = L.circleMarker(
+                [28.68109058363609, -81.42262133961178],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_887e60a566174415a5e065b41e26eace = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2c0fd53401f4d40afe51531d14dadff = $(`<div id="html_d2c0fd53401f4d40afe51531d14dadff" style="width: 100.0%; height: 100.0%;">Lake Brantley High School, Cluster: 0</div>`)[0];
+            popup_887e60a566174415a5e065b41e26eace.setContent(html_d2c0fd53401f4d40afe51531d14dadff);
+        
+
+        circle_marker_068011e12c37429580bb7a7784fdf012.bindPopup(popup_887e60a566174415a5e065b41e26eace)
+        ;
+
+        
+    
+    
+            var circle_marker_36629c7ab07643f481d61878e92b560d = L.circleMarker(
+                [28.41658051568077, -81.41355807041292],
+                {"bubblingMouseEvents": true, "color": "#d4dd80", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d4dd80", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_afe53acfe020476ba6c99802cda7474d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04185bae02c440b3b34fef4c4cab5e01 = $(`<div id="html_04185bae02c440b3b34fef4c4cab5e01" style="width: 100.0%; height: 100.0%;">Freedom High School, Cluster: 3</div>`)[0];
+            popup_afe53acfe020476ba6c99802cda7474d.setContent(html_04185bae02c440b3b34fef4c4cab5e01);
+        
+
+        circle_marker_36629c7ab07643f481d61878e92b560d.bindPopup(popup_afe53acfe020476ba6c99802cda7474d)
+        ;
+
+        
+    
+    
+            var circle_marker_1c454e44e0b8474fbc83a5d8b96d1b51 = L.circleMarker(
+                [28.68718329456342, -81.34441312933865],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_1ad54915d729468f8653fe45e2a8a65e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d9d388dfb4f4a32801ff5988fb5980f = $(`<div id="html_4d9d388dfb4f4a32801ff5988fb5980f" style="width: 100.0%; height: 100.0%;">Lyman High School, Cluster: 1</div>`)[0];
+            popup_1ad54915d729468f8653fe45e2a8a65e.setContent(html_4d9d388dfb4f4a32801ff5988fb5980f);
+        
+
+        circle_marker_1c454e44e0b8474fbc83a5d8b96d1b51.bindPopup(popup_1ad54915d729468f8653fe45e2a8a65e)
+        ;
+
+        
+    
+    
+            var circle_marker_a5074b2cab804485a7e0472e8afa86a3 = L.circleMarker(
+                [28.581801319525965, -81.39074755005863],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_837af864cfea4543b6ee9aed9f57bc35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74bc17641513475b8d4adf41536a67ac = $(`<div id="html_74bc17641513475b8d4adf41536a67ac" style="width: 100.0%; height: 100.0%;">Edgewater High School, Cluster: 0</div>`)[0];
+            popup_837af864cfea4543b6ee9aed9f57bc35.setContent(html_74bc17641513475b8d4adf41536a67ac);
+        
+
+        circle_marker_a5074b2cab804485a7e0472e8afa86a3.bindPopup(popup_837af864cfea4543b6ee9aed9f57bc35)
+        ;
+
+        
+    
+    
+            var circle_marker_fcc2ae02877b455b8dab9dc69b44719f = L.circleMarker(
+                [28.540432934596655, -81.56816625057814],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_2fc1baa5533949d8a71d762b8609242b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfe17f71fce445ab85407816bdb3b31b = $(`<div id="html_dfe17f71fce445ab85407816bdb3b31b" style="width: 100.0%; height: 100.0%;">West Orange High School, Cluster: 0</div>`)[0];
+            popup_2fc1baa5533949d8a71d762b8609242b.setContent(html_dfe17f71fce445ab85407816bdb3b31b);
+        
+
+        circle_marker_fcc2ae02877b455b8dab9dc69b44719f.bindPopup(popup_2fc1baa5533949d8a71d762b8609242b)
+        ;
+
+        
+    
+    
+            var circle_marker_bc05cd2719124de5ac92f360bbae3a2d = L.circleMarker(
+                [28.57726325452182, -81.21547560678358],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_17461ad6997d4aea93ba7a9eef8f3cf6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_384afe8e60a944e688c25d570426c539 = $(`<div id="html_384afe8e60a944e688c25d570426c539" style="width: 100.0%; height: 100.0%;">University High School, Cluster: 1</div>`)[0];
+            popup_17461ad6997d4aea93ba7a9eef8f3cf6.setContent(html_384afe8e60a944e688c25d570426c539);
+        
+
+        circle_marker_bc05cd2719124de5ac92f360bbae3a2d.bindPopup(popup_17461ad6997d4aea93ba7a9eef8f3cf6)
+        ;
+
+        
+    
+    
+            var circle_marker_4529fc2451604233b3a6107c13587352 = L.circleMarker(
+                [28.380792930811488, -81.37867936245199],
+                {"bubblingMouseEvents": true, "color": "#d4dd80", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d4dd80", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_2aa2686855874b7ea1b75470aba42ec0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02a0b619f4ea4a08a7ba5140d9beefb7 = $(`<div id="html_02a0b619f4ea4a08a7ba5140d9beefb7" style="width: 100.0%; height: 100.0%;">Cypress Creek High School, Cluster: 3</div>`)[0];
+            popup_2aa2686855874b7ea1b75470aba42ec0.setContent(html_02a0b619f4ea4a08a7ba5140d9beefb7);
+        
+
+        circle_marker_4529fc2451604233b3a6107c13587352.bindPopup(popup_2aa2686855874b7ea1b75470aba42ec0)
+        ;
+
+        
+    
+    
+            var circle_marker_6255b2229e954d40961e4b7f1b387e23 = L.circleMarker(
+                [28.625193828938183, -81.17831603878886],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_d8d8261e781d4094992e3aab0c1957da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5ba1033fb8f4e46a47a9f9052d04602 = $(`<div id="html_d5ba1033fb8f4e46a47a9f9052d04602" style="width: 100.0%; height: 100.0%;">Hagerty High School, Cluster: 1</div>`)[0];
+            popup_d8d8261e781d4094992e3aab0c1957da.setContent(html_d5ba1033fb8f4e46a47a9f9052d04602);
+        
+
+        circle_marker_6255b2229e954d40961e4b7f1b387e23.bindPopup(popup_d8d8261e781d4094992e3aab0c1957da)
+        ;
+
+        
+    
+    
+            var circle_marker_164a10ac59824ea4a27e61d7f89d7a85 = L.circleMarker(
+                [28.703082507494464, -81.26473765574484],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_dc23d29965674f35a7dde2cdb5dbc535 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a45abc3bb4e0430bb1c52c88970c4255 = $(`<div id="html_a45abc3bb4e0430bb1c52c88970c4255" style="width: 100.0%; height: 100.0%;">Winter Springs High School, Cluster: 1</div>`)[0];
+            popup_dc23d29965674f35a7dde2cdb5dbc535.setContent(html_a45abc3bb4e0430bb1c52c88970c4255);
+        
+
+        circle_marker_164a10ac59824ea4a27e61d7f89d7a85.bindPopup(popup_dc23d29965674f35a7dde2cdb5dbc535)
+        ;
+
+        
+    
+    
+            var circle_marker_274c0b701cee43cfa3385a490538f31d = L.circleMarker(
+                [28.736461690156386, -81.33599592436701],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_0489813a29184caebbe7eec7167d5d92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2551b6ead9bf495e96fb0aa651a0929b = $(`<div id="html_2551b6ead9bf495e96fb0aa651a0929b" style="width: 100.0%; height: 100.0%;">Lake Mary High School, Cluster: 1</div>`)[0];
+            popup_0489813a29184caebbe7eec7167d5d92.setContent(html_2551b6ead9bf495e96fb0aa651a0929b);
+        
+
+        circle_marker_274c0b701cee43cfa3385a490538f31d.bindPopup(popup_0489813a29184caebbe7eec7167d5d92)
+        ;
+
+        
+    
+    
+            var circle_marker_cef10533547e482b8f449c41b792c1a1 = L.circleMarker(
+                [28.554918, -81.41259],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_1c2ac16fa4354c039954ab88c85d8c3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c8cbe8cfbdd464faaeefe2746fe2a2f = $(`<div id="html_9c8cbe8cfbdd464faaeefe2746fe2a2f" style="width: 100.0%; height: 100.0%;">Orlando School High School, Cluster: 0</div>`)[0];
+            popup_1c2ac16fa4354c039954ab88c85d8c3d.setContent(html_9c8cbe8cfbdd464faaeefe2746fe2a2f);
+        
+
+        circle_marker_cef10533547e482b8f449c41b792c1a1.bindPopup(popup_1c2ac16fa4354c039954ab88c85d8c3d)
+        ;
+
+        
+    
+    
+            var circle_marker_01371d789b614d948d5a2ebb390261c3 = L.circleMarker(
+                [28.534448540786848, -81.42083452842549],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_0ecf8cec2d6b464eb350831ad068a716 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_778bd9cbe0c441849ce847cb7900d2ed = $(`<div id="html_778bd9cbe0c441849ce847cb7900d2ed" style="width: 100.0%; height: 100.0%;">Jones High School, Cluster: 0</div>`)[0];
+            popup_0ecf8cec2d6b464eb350831ad068a716.setContent(html_778bd9cbe0c441849ce847cb7900d2ed);
+        
+
+        circle_marker_01371d789b614d948d5a2ebb390261c3.bindPopup(popup_0ecf8cec2d6b464eb350831ad068a716)
+        ;
+
+        
+    
+    
+            var circle_marker_b41adcad6b4c43699cf7c88d9ae40a2d = L.circleMarker(
+                [28.693313889155153, -81.52351576724361],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_56b1c03d1e8f45a9985d237f66c94214 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35118964248b412585d43d6c5709ff47 = $(`<div id="html_35118964248b412585d43d6c5709ff47" style="width: 100.0%; height: 100.0%;">Apopka High School, Cluster: 0</div>`)[0];
+            popup_56b1c03d1e8f45a9985d237f66c94214.setContent(html_35118964248b412585d43d6c5709ff47);
+        
+
+        circle_marker_b41adcad6b4c43699cf7c88d9ae40a2d.bindPopup(popup_56b1c03d1e8f45a9985d237f66c94214)
+        ;
+
+        
+    
+    
+            var circle_marker_67113c33edac4cacb8b6f57f822529db = L.circleMarker(
+                [28.57867691173697, -81.44882843460636],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_18bd6dad43dd4fc68c12b918934ced78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e008fecfb36a4a23ac5359902ef312f2 = $(`<div id="html_e008fecfb36a4a23ac5359902ef312f2" style="width: 100.0%; height: 100.0%;">Evans High School, Cluster: 0</div>`)[0];
+            popup_18bd6dad43dd4fc68c12b918934ced78.setContent(html_e008fecfb36a4a23ac5359902ef312f2);
+        
+
+        circle_marker_67113c33edac4cacb8b6f57f822529db.bindPopup(popup_18bd6dad43dd4fc68c12b918934ced78)
+        ;
+
+        
+    
+    
+            var circle_marker_f1c6aef2bb5141489c6976696be49c79 = L.circleMarker(
+                [28.574254608532193, -81.81772076308555],
+                {"bubblingMouseEvents": true, "color": "#2adddd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2adddd", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_7b5574f61acb4dbe97541f2e51515328 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5963a42f2c34a6c8f6d66cd7f62b2d5 = $(`<div id="html_d5963a42f2c34a6c8f6d66cd7f62b2d5" style="width: 100.0%; height: 100.0%;">South Lake High School, Cluster: 2</div>`)[0];
+            popup_7b5574f61acb4dbe97541f2e51515328.setContent(html_d5963a42f2c34a6c8f6d66cd7f62b2d5);
+        
+
+        circle_marker_f1c6aef2bb5141489c6976696be49c79.bindPopup(popup_7b5574f61acb4dbe97541f2e51515328)
+        ;
+
+        
+    
+    
+            var circle_marker_a1dfcada4ab0435fbaa15d62900b73b1 = L.circleMarker(
+                [28.59256288455393, -81.5607026286966],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_949a505af9ea4dad85e7cb2666da6065 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_556aaf78fbcd4afb807356830a4c11a6 = $(`<div id="html_556aaf78fbcd4afb807356830a4c11a6" style="width: 100.0%; height: 100.0%;">Legacy High School, Cluster: 0</div>`)[0];
+            popup_949a505af9ea4dad85e7cb2666da6065.setContent(html_556aaf78fbcd4afb807356830a4c11a6);
+        
+
+        circle_marker_a1dfcada4ab0435fbaa15d62900b73b1.bindPopup(popup_949a505af9ea4dad85e7cb2666da6065)
+        ;
+
+        
+    
+    
+            var marker_a1a216d3264445f38cb1d663ff6eb6b7 = L.marker(
+                [28.561895699884396, -81.45176792642444],
+                {}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_80f4a488d9d046d4a1a204838dc1279e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb3e9e1d641345e3b2ff6fd625448a49 = $(`<div id="html_fb3e9e1d641345e3b2ff6fd625448a49" style="width: 100.0%; height: 100.0%;">5177,  Cortez Drive,  Pine Hills., Cluster: 0</div>`)[0];
+            popup_80f4a488d9d046d4a1a204838dc1279e.setContent(html_fb3e9e1d641345e3b2ff6fd625448a49);
+        
+
+        marker_a1a216d3264445f38cb1d663ff6eb6b7.bindPopup(popup_80f4a488d9d046d4a1a204838dc1279e)
+        ;
+
+        
+    
+    
+            var marker_f619a7e37884426ca69b58766fc3cd1c = L.marker(
+                [28.64583597314321, -81.27722699768665],
+                {}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_16dc6d305a55404c81b25fd587134d2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21cfa5b82ee14415ae38467f9af41087 = $(`<div id="html_21cfa5b82ee14415ae38467f9af41087" style="width: 100.0%; height: 100.0%;">1009,  Chatham Pines Circle,  Lost Creek., Cluster: 1</div>`)[0];
+            popup_16dc6d305a55404c81b25fd587134d2a.setContent(html_21cfa5b82ee14415ae38467f9af41087);
+        
+
+        marker_f619a7e37884426ca69b58766fc3cd1c.bindPopup(popup_16dc6d305a55404c81b25fd587134d2a)
+        ;
+
+        
+    
+    
+            var marker_ca4377d752614bda8ba2c22b5365e20b = L.marker(
+                [28.574254608532193, -81.81772076308555],
+                {}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_309a8460e8d4478ca7b6b937118f548e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea430e17565b41818e69bc9023418c85 = $(`<div id="html_ea430e17565b41818e69bc9023418c85" style="width: 100.0%; height: 100.0%;">South Lake High School,  Meadow Ridge Drive,  Lake County., Cluster: 2</div>`)[0];
+            popup_309a8460e8d4478ca7b6b937118f548e.setContent(html_ea430e17565b41818e69bc9023418c85);
+        
+
+        marker_ca4377d752614bda8ba2c22b5365e20b.bindPopup(popup_309a8460e8d4478ca7b6b937118f548e)
+        ;
+
+        
+    
+    
+            var marker_44fa36d04cc64eb5ba9e495901874c10 = L.marker(
+                [28.341349135977172, -81.34884608698772],
+                {}
+            ).addTo(map_fae470da70f641dfb22c25650e4a5441);
+        
+    
+        var popup_2940aea618ee48fc9efd803c069ccf2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c2f264534e94013b4c5fad740641462 = $(`<div id="html_9c2f264534e94013b4c5fad740641462" style="width: 100.0%; height: 100.0%;">118,  Green Cove Court,  Osceola County., Cluster: 3</div>`)[0];
+            popup_2940aea618ee48fc9efd803c069ccf2f.setContent(html_9c2f264534e94013b4c5fad740641462);
+        
+
+        marker_44fa36d04cc64eb5ba9e495901874c10.bindPopup(popup_2940aea618ee48fc9efd803c069ccf2f)
+        ;
+
+        
+    
+</script>
